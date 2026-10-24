@@ -1,0 +1,421 @@
+{
+  "seed": 10242026,
+  "dense_instances": [
+    {
+      "model": "discrete",
+      "dimension": 3,
+      "epsilon": 0.005,
+      "theta": 1.5707963267948966,
+      "forward_queries": 314,
+      "hypotheses": [
+        {
+          "signal": false,
+          "input_norm": 0.003999997333333866,
+          "departure_probability": 3.479350112155197e-06,
+          "phase_contrast": 0.0,
+          "branch_leakage": 0.0011277533982745527,
+          "paired_state_error": 0.0018653027383679218,
+          "numerical_norm_residual": 2.220446049250313e-16
+        },
+        {
+          "signal": true,
+          "input_norm": 0.005833655048954434,
+          "departure_probability": 0.9999993718858153,
+          "phase_contrast": -0.020000056714291503,
+          "branch_leakage": 0.0011304520137159157,
+          "paired_state_error": 0.001992358720716243,
+          "numerical_norm_residual": 2.1316282072803006e-14
+        }
+      ]
+    },
+    {
+      "model": "discrete",
+      "dimension": 3,
+      "epsilon": 0.001,
+      "theta": 1.5707963267948966,
+      "forward_queries": 1570,
+      "hypotheses": [
+        {
+          "signal": false,
+          "input_norm": 0.003999997333333866,
+          "departure_probability": 8.327500402859553e-07,
+          "phase_contrast": 0.0,
+          "branch_leakage": 0.0016279679439110948,
+          "paired_state_error": 0.0009125526138477569,
+          "numerical_norm_residual": 1.2323475573339238e-14
+        },
+        {
+          "signal": true,
+          "input_norm": 0.00409220725357113,
+          "departure_probability": 0.9999993518292548,
+          "phase_contrast": -0.003999990066240633,
+          "branch_leakage": 0.0016287825427758653,
+          "paired_state_error": 0.0038770874218924064,
+          "numerical_norm_residual": 2.6201263381153694e-14
+        }
+      ]
+    },
+    {
+      "model": "discrete",
+      "dimension": 3,
+      "epsilon": 0.0001,
+      "theta": 1.5707963267948966,
+      "forward_queries": 15708,
+      "hypotheses": [
+        {
+          "signal": false,
+          "input_norm": 0.003999997333333866,
+          "departure_probability": 2.2512248749134162e-05,
+          "phase_contrast": 0.0,
+          "branch_leakage": 0.0014191966085393825,
+          "paired_state_error": 0.004744727376361308,
+          "numerical_norm_residual": 4.425348976155874e-13
+        },
+        {
+          "signal": true,
+          "input_norm": 0.0040007511623919596,
+          "departure_probability": 0.9999999999271922,
+          "phase_contrast": -0.0003999991944079184,
+          "branch_leakage": 0.001419267514749584,
+          "paired_state_error": 0.002876395634048981,
+          "numerical_norm_residual": 1.588285059028749e-12
+        }
+      ]
+    },
+    {
+      "model": "discrete",
+      "dimension": 12,
+      "epsilon": 0.005,
+      "theta": 1.5707963267948966,
+      "forward_queries": 314,
+      "hypotheses": [
+        {
+          "signal": false,
+          "input_norm": 0.003999997333333867,
+          "departure_probability": 3.315705354630163e-06,
+          "phase_contrast": 0.0,
+          "branch_leakage": 0.0009632633305885512,
+          "paired_state_error": 0.0018209085928892264,
+          "numerical_norm_residual": 2.220446049250313e-16
+        },
+        {
+          "signal": true,
+          "input_norm": 0.005814208153059313,
+          "departure_probability": 0.9999993736681371,
+          "phase_contrast": -0.020000064004480178,
+          "branch_leakage": 0.0009655810832633119,
+          "paired_state_error": 0.0014692899648061383,
+          "numerical_norm_residual": 5.773159728050814e-15
+        }
+      ]
+    },
+    {
+      "model": "discrete",
+      "dimension": 12,
+      "epsilon": 0.001,
+      "theta": 1.5707963267948966,
+      "forward_queries": 1570,
+      "hypotheses": [
+        {
+          "signal": false,
+          "input_norm": 0.003999997333333866,
+          "departure_probability": 3.0895531028634615e-06,
+          "phase_contrast": 0.0,
+          "branch_leakage": 0.001298847178811122,
+          "paired_state_error": 0.0017577133103513784,
+          "numerical_norm_residual": 3.774758283725532e-15
+        },
+        {
+          "signal": true,
+          "input_norm": 0.004051942877282441,
+          "departure_probability": 0.9999993591421223,
+          "phase_contrast": -0.003999993922131795,
+          "branch_leakage": 0.0012994974403686367,
+          "paired_state_error": 0.0026496791473961047,
+          "numerical_norm_residual": 7.793765632868599e-14
+        }
+      ]
+    },
+    {
+      "model": "discrete",
+      "dimension": 12,
+      "epsilon": 0.0001,
+      "theta": 1.5707963267948966,
+      "forward_queries": 15708,
+      "hypotheses": [
+        {
+          "signal": false,
+          "input_norm": 0.003999997333333869,
+          "departure_probability": 5.204238572937677e-06,
+          "phase_contrast": 0.0,
+          "branch_leakage": 0.001086868658318717,
+          "paired_state_error": 0.0022812815413907734,
+          "numerical_norm_residual": 1.0136336214827679e-13
+        },
+        {
+          "signal": true,
+          "input_norm": 0.0040002496065081215,
+          "departure_probability": 0.9999999999964211,
+          "phase_contrast": -0.0003999995273886725,
+          "branch_leakage": 0.0010869229158697808,
+          "paired_state_error": 0.002234589207791226,
+          "numerical_norm_residual": 8.448797217397441e-13
+        }
+      ]
+    },
+    {
+      "model": "hamiltonian",
+      "dimension": 3,
+      "epsilon": 1.0,
+      "theta": 1.5707963267948966,
+      "forward_queries": 158,
+      "hypotheses": [
+        {
+          "signal": false,
+          "input_norm": 0.0,
+          "departure_probability": 0.0,
+          "phase_contrast": 0.0,
+          "branch_leakage": 2.482534153247273e-16,
+          "paired_state_error": 2.220446049250313e-16,
+          "numerical_norm_residual": 0.0
+        },
+        {
+          "signal": true,
+          "input_norm": 1.0,
+          "departure_probability": 0.9999152947912973,
+          "phase_contrast": -0.040000000000000036,
+          "branch_leakage": 2.603703785810335e-16,
+          "paired_state_error": 1.9803249446292043e-15,
+          "numerical_norm_residual": 9.992007221626409e-16
+        }
+      ]
+    },
+    {
+      "model": "hamiltonian",
+      "dimension": 3,
+      "epsilon": 0.001,
+      "theta": 1.5707963267948966,
+      "forward_queries": 157080,
+      "hypotheses": [
+        {
+          "signal": false,
+          "input_norm": 0.7992,
+          "departure_probability": 2.2489412361110173e-08,
+          "phase_contrast": 0.0,
+          "branch_leakage": 0.002071120033845579,
+          "paired_state_error": 0.0001499656300961509,
+          "numerical_norm_residual": 2.8206326163626727e-12
+        },
+        {
+          "signal": true,
+          "input_norm": 0.7992012162269981,
+          "departure_probability": 0.9999999999885892,
+          "phase_contrast": -3.999988565017709e-05,
+          "branch_leakage": 0.0020711213477199652,
+          "paired_state_error": 0.004049321126703168,
+          "numerical_norm_residual": 4.80293582683089e-12
+        }
+      ]
+    },
+    {
+      "model": "hamiltonian",
+      "dimension": 3,
+      "epsilon": 0.0001,
+      "theta": 1.5707963267948966,
+      "forward_queries": 1570796,
+      "hypotheses": [
+        {
+          "signal": false,
+          "input_norm": 0.79992,
+          "departure_probability": 6.383699974441499e-06,
+          "phase_contrast": 0.0,
+          "branch_leakage": 0.002836449074205662,
+          "paired_state_error": 0.0025266005813284263,
+          "numerical_norm_residual": 1.5613510484513426e-11
+        },
+        {
+          "signal": true,
+          "input_norm": 0.7999200091681307,
+          "departure_probability": 0.9999999995602917,
+          "phase_contrast": -3.999978574587004e-06,
+          "branch_leakage": 0.0028364502271762625,
+          "paired_state_error": 0.005820616730376672,
+          "numerical_norm_residual": 9.19743170513243e-11
+        }
+      ]
+    },
+    {
+      "model": "hamiltonian",
+      "dimension": 12,
+      "epsilon": 1.0,
+      "theta": 1.5707963267948966,
+      "forward_queries": 158,
+      "hypotheses": [
+        {
+          "signal": false,
+          "input_norm": 0.0,
+          "departure_probability": 0.0,
+          "phase_contrast": 0.0,
+          "branch_leakage": 2.482534153247273e-16,
+          "paired_state_error": 2.220446049250313e-16,
+          "numerical_norm_residual": 0.0
+        },
+        {
+          "signal": true,
+          "input_norm": 1.0,
+          "departure_probability": 0.9999152947912977,
+          "phase_contrast": -0.040000000000000036,
+          "branch_leakage": 2.603703785810335e-16,
+          "paired_state_error": 1.8511409699461415e-15,
+          "numerical_norm_residual": 7.771561172376096e-16
+        }
+      ]
+    },
+    {
+      "model": "hamiltonian",
+      "dimension": 12,
+      "epsilon": 0.001,
+      "theta": 1.5707963267948966,
+      "forward_queries": 157080,
+      "hypotheses": [
+        {
+          "signal": false,
+          "input_norm": 0.7992,
+          "departure_probability": 1.0174427929343278e-05,
+          "phase_contrast": 6.661338147750939e-16,
+          "branch_leakage": 0.001832480526150569,
+          "paired_state_error": 0.003189742533907019,
+          "numerical_norm_residual": 2.828404177535049e-12
+        },
+        {
+          "signal": true,
+          "input_norm": 0.7992000417560808,
+          "departure_probability": 1.0000000000153197,
+          "phase_contrast": -3.999991053960095e-05,
+          "branch_leakage": 0.0018324896135127828,
+          "paired_state_error": 0.003174542678471262,
+          "numerical_norm_residual": 8.263167927680115e-12
+        }
+      ]
+    },
+    {
+      "model": "hamiltonian",
+      "dimension": 12,
+      "epsilon": 0.0001,
+      "theta": 1.5707963267948966,
+      "forward_queries": 1570796,
+      "hypotheses": [
+        {
+          "signal": false,
+          "input_norm": 0.7999200000000003,
+          "departure_probability": 2.1501277041852427e-05,
+          "phase_contrast": 6.661338147750939e-16,
+          "branch_leakage": 0.002075620192788896,
+          "paired_state_error": 0.004636961698614487,
+          "numerical_norm_residual": 1.6849854844736e-11
+        },
+        {
+          "signal": true,
+          "input_norm": 0.7999200002566271,
+          "departure_probability": 0.9999999997896153,
+          "phase_contrast": -3.999988519298725e-06,
+          "branch_leakage": 0.0020756211845030393,
+          "paired_state_error": 0.0041763727484331135,
+          "numerical_norm_residual": 9.63045199142698e-11
+        }
+      ]
+    }
+  ],
+  "structured_calibration": [
+    {
+      "model": "hamiltonian",
+      "dimension": 3,
+      "epsilon": 0.001,
+      "theta": 1.0471975511965976,
+      "forward_queries": 157080,
+      "hypotheses": [
+        {
+          "signal": false,
+          "input_norm": 0.5216990566028302,
+          "departure_probability": 5.247716732987195e-06,
+          "phase_contrast": 0.0,
+          "branch_leakage": 0.0018498813869710854,
+          "paired_state_error": 0.002302163281506015,
+          "numerical_norm_residual": 7.58371143660952e-12
+        },
+        {
+          "signal": true,
+          "input_norm": 0.5217005229610217,
+          "departure_probability": 0.9999999484691919,
+          "phase_contrast": -3.9999916666699775e-05,
+          "branch_leakage": 0.0018498832232826078,
+          "paired_state_error": 0.003521548374257812,
+          "numerical_norm_residual": 9.279244039817058e-13
+        }
+      ]
+    },
+    {
+      "model": "hamiltonian",
+      "dimension": 3,
+      "epsilon": 0.001,
+      "theta": 2.0943951023931953,
+      "forward_queries": 157080,
+      "hypotheses": [
+        {
+          "signal": false,
+          "input_norm": 0.5216990566028302,
+          "departure_probability": 3.346172070280737e-05,
+          "phase_contrast": 0.0,
+          "branch_leakage": 0.0029638993613390566,
+          "paired_state_error": 0.005834895717767893,
+          "numerical_norm_residual": 4.552136445568067e-12
+        },
+        {
+          "signal": true,
+          "input_norm": 0.5217005229610217,
+          "departure_probability": 0.999999397810038,
+          "phase_contrast": -3.999970333046221e-05,
+          "branch_leakage": 0.0029639243624293658,
+          "paired_state_error": 0.0059612565378257,
+          "numerical_norm_residual": 9.551026636245297e-12
+        }
+      ]
+    }
+  ],
+  "two_state_examples": [
+    {
+      "model": "discrete",
+      "rotation_closed_form": 0.9999993662804456,
+      "rotation_computed": 0.9999993662805879,
+      "uncontrolled_detuned_ceiling": 0.20000037333370316,
+      "paired_detuned_signal_probability": 0.9999993612675688
+    },
+    {
+      "model": "hamiltonian",
+      "rotation_closed_form": 0.9999999999865075,
+      "rotation_computed": 0.9999999999805116,
+      "uncontrolled_detuned_ceiling": 1.5999744004095932e-05,
+      "paired_detuned_signal_probability": 1.0000000000133553
+    }
+  ],
+  "native_controls": {
+    "basis_columns_checked": 248,
+    "n_range": [
+      1,
+      5
+    ],
+    "maximum_operator_error": 6.123233995736766e-17,
+    "workspace_returned": true
+  },
+  "null_kick_comparison": {
+    "tau": 0.01,
+    "hamiltonian_norm": 0.5216990566028302,
+    "asymmetric_contrast": -2.5999938132580808e-08,
+    "symmetric_contrast": 0.0
+  },
+  "summary": {
+    "dense_pairs": 12,
+    "maximum_null_departure": 2.2512248749134162e-05,
+    "minimum_signal_departure": 0.9999152947912973
+  }
+}
