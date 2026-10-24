@@ -6,7 +6,7 @@ The paired-kick algorithms use a single coherent data register and a fixed known
 
 ## One run and its paid resources
 
-Write $`N=2m`$ for the number of unknown queries in one run. In the discrete problem, $`a=\arcsin\varepsilon`$ and $`m=\operatorname{round}(\pi/(4a))`$. In the Hamiltonian problem, $`\|H\|\le\Lambda`$, the fixed query duration is $`\tau=0.01/\Lambda`$, and $`m=\operatorname{round}(\pi/(4\varepsilon\tau))`$. Here the Hamiltonian coupling $`\varepsilon`$ has units of inverse time and satisfies $`0<\varepsilon\le\Lambda`$.
+Write $`N=2m`$ for the number of unknown queries in one run. In the discrete problem, $`a=\arcsin\varepsilon`$ and $`m=\mathrm{round}(\pi/(4a))`$. In the Hamiltonian problem, $`\|H\|\le\Lambda`$, the fixed query duration is $`\tau=0.01/\Lambda`$, and $`m=\mathrm{round}(\pi/(4\varepsilon\tau))`$. Here the Hamiltonian coupling $`\varepsilon`$ has units of inverse time and satisfies $`0<\varepsilon\le\Lambda`$.
 
 | Resource | Discrete oracle | Fixed-step Hamiltonian oracle |
 |---|---|---|
@@ -44,14 +44,14 @@ This overall phase is harmless. In fact, replacing every kick by its negative in
 
 On the target, $`-iY=XZ`$ and $`+iY=ZX`$. Therefore:
 
-- To implement $`-C`$, apply $`\operatorname{CZ}_{b,t}`$ followed by $`\operatorname{CNOT}_{b,t}`$.
+- To implement $`-C`$, apply $`\mathrm{CZ}_{b,t}`$ followed by $`\mathrm{CNOT}_{b,t}`$.
 - To implement $`-C^\dagger`$, apply the same two gates in the opposite order.
 
 Both operations have the identity action when $`b=0`$. Their ordered product gives the required conditional sign when $`b=1`$.
 
 ### Hamiltonian control
 
-The Hamiltonian proof uses $`G=X`$ on the target pair. Implement $`-C`$ using $`S_b^\dagger`$ and $`\operatorname{CNOT}_{b,t}`$, and implement $`-C^\dagger`$ using $`S_b`$ and $`\operatorname{CNOT}_{b,t}`$. Here $`S_b=\operatorname{diag}(1,i)`$ is the single-qubit phase gate on the predicate. These two gates commute.
+The Hamiltonian proof uses $`G=X`$ on the target pair. Implement $`-C`$ using $`S_b^\dagger`$ and $`\mathrm{CNOT}_{b,t}`$, and implement $`-C^\dagger`$ using $`S_b`$ and $`\mathrm{CNOT}_{b,t}`$. Here $`S_b=\mathrm{diag}(1,i)`$ is the single-qubit phase gate on the predicate. These two gates commute.
 
 The phase gate on the predicate is necessary: conditional $`X`$ alone would omit the relative factor $`\mp i`$ between the distinguished subspace and its complement and would implement the wrong kick.
 
@@ -191,7 +191,7 @@ Wu=v,
 \|W-I\|=\|u-v\|.
 ```
 
-To see this, write $`v=\alpha u+\beta w`$, with $`w\perp u`$ and $`\beta\ge0`$. On $`\operatorname{span}\{u,w\}`$ use the unitary matrix
+To see this, write $`v=\alpha u+\beta w`$, with $`w\perp u`$ and $`\beta\ge0`$. On $`\mathrm{span}\{u,w\}`$ use the unitary matrix
 
 ```math
 \begin{pmatrix}
@@ -200,7 +200,7 @@ To see this, write $`v=\alpha u+\beta w`$, with $`w\perp u`$ and $`\beta\ge0`$. 
 \end{pmatrix},
 ```
 
-and use the identity on the complement. Its sum with its adjoint is $`2\operatorname{Re}\alpha`$ times the identity on that span, which proves the norm equality. If $`\beta=0`$, a phase on $`u`$ suffices. Consequently $`U_*=WU`$ has the exact target column and $`\|U-U_*\|\le\zeta`$ whenever the column error is at most $`\zeta`$. A sufficient norm margin is $`\|U-I\|\le c_0-\zeta`$, which ensures $`\|U_*-I\|\le c_0`$.
+and use the identity on the complement. Its sum with its adjoint is $`2\mathrm{Re}\alpha`$ times the identity on that span, which proves the norm equality. If $`\beta=0`$, a phase on $`u`$ suffices. Consequently $`U_*=WU`$ has the exact target column and $`\|U-U_*\|\le\zeta`$ whenever the column error is at most $`\zeta`$. A sufficient norm margin is $`\|U-I\|\le c_0-\zeta`$, which ensures $`\|U_*-I\|\le c_0`$.
 
 For a Hermitian $`H`$, let $`e=H|0\rangle-v`$, where $`v=0`$ or $`v=\varepsilon|1\rangle`$. Its coefficient $`e_0=\langle0|e\rangle`$ is real. Write $`e=e_0|0\rangle+b|w\rangle`$ with $`w\perp0`$ and $`b\ge0`$. The Hermitian correction
 

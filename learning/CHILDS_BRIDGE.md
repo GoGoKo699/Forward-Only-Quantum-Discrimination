@@ -85,7 +85,7 @@ The general algorithm prepares $`|0\rangle`$, applies
 \qquad
 C=iY_{01}-Q,
 \qquad
-m=\operatorname{round}\!\left(\frac{\pi}{4a}\right),
+m=\mathrm{round}\!\left(\frac{\pi}{4a}\right),
 ```
 
 then measures whether the system is outside $`|0\rangle`$. The rightmost block is executed first: apply $`U`$ and then $`C`$, repeat $`m`$ times, then apply $`U`$ and $`C^\dagger`$ another $`m`$ times.
@@ -254,7 +254,7 @@ Differentiating the exact exponential introduces an averaged conjugate of $`X_{0
 \le4\varepsilon\tau\,[\tau+2q(\tau)^2].
 ```
 
-The finite-step error is again proportional to the signal. With $`m=\operatorname{round}(\pi/(4\varepsilon\tau))`$, the algorithm obtains the same decision guarantees. The [Hamiltonian proof](../science/Hamiltonian.md) explains the derivative identity and rescaling to general $`\Lambda`$.
+The finite-step error is again proportional to the signal. With $`m=\mathrm{round}(\pi/(4\varepsilon\tau))`$, the algorithm obtains the same decision guarantees. The [Hamiltonian proof](../science/Hamiltonian.md) explains the derivative identity and rescaling to general $`\Lambda`$.
 
 ## Paying for the algorithm
 

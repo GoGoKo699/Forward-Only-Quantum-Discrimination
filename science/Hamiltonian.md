@@ -32,7 +32,7 @@ Q&=I-|0\rangle\langle0|-|1\rangle\langle1|,\\
 C&=iX_{01}-Q,\\
 |x_\sigma\rangle&=(|0\rangle+\sigma|1\rangle)/\sqrt2,
 \qquad \sigma\in\{+1,-1\},\\
-m&=\operatorname{round}\!\left(\frac{\pi}{4\varepsilon\tau}\right).
+m&=\mathrm{round}\!\left(\frac{\pi}{4\varepsilon\tau}\right).
 \end{aligned}
 ```
 
@@ -196,7 +196,7 @@ For a known $`\Lambda>0`$ and $`0<\varepsilon\le\Lambda`$, suppose $`\|H\|\le\La
 \tau=\frac{0.01}{\Lambda},
 ```
 
-and the algorithm uses $`m=\operatorname{round}(\pi/(4\varepsilon\tau))`$. Its resource scaling is
+and the algorithm uses $`m=\mathrm{round}(\pi/(4\varepsilon\tau))`$. Its resource scaling is
 
 ```math
 N=\Theta\!\left(\frac{\Lambda}{\varepsilon}\right),\qquad

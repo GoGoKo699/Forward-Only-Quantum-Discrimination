@@ -11,7 +11,7 @@ Take the discrete signal oracle $`U=e^{-iaY_{01}}`$ with $`\sin a=\varepsilon`$,
 U^{2m}|0\rangle=\cos(2ma)|0\rangle+\sin(2ma)|1\rangle.
 ```
 
-For $`m=\operatorname{round}(\pi/(4a))`$, the departure probability is $`\sin^2(2ma)`$, close to one. In the null example $`U=I`$, the two blocks cancel exactly. The circuit starts with one computational basis state, uses $`2m`$ forward calls and $`2m`$ known kicks, then measures the system once.
+For $`m=\mathrm{round}(\pi/(4a))`$, the departure probability is $`\sin^2(2ma)`$, close to one. In the null example $`U=I`$, the two blocks cancel exactly. The circuit starts with one computational basis state, uses $`2m`$ forward calls and $`2m`$ known kicks, then measures the system once.
 
 For $`H=\varepsilon X_{01}`$, the same calculation gives departure probability $`\sin^2(2m\varepsilon\tau)`$. This is the simplest view of the signal accumulating coherently. The general proof is needed because an unknown completion need not commute with the kick, preserve the two-state subspace or have a known spectrum.
 

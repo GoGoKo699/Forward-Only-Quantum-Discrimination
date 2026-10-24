@@ -38,7 +38,7 @@ Let
 
 ```math
 a=\arcsin\varepsilon,\qquad
-m=\operatorname{round}\!\left(\frac{\pi}{4a}\right),
+m=\mathrm{round}\!\left(\frac{\pi}{4a}\right),
 ```
 
 where either nearest integer is allowed at a tie. Prepare $`|0\rangle`$ and apply
