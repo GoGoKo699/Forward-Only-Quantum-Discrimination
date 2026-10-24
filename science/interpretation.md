@@ -12,7 +12,7 @@ The norm condition is sufficient, not a classification of all easy oracles. The 
 
 A direct short-time approximation usually has an additive error independent of the weak coupling. Accumulating a signal for time proportional to $`1/\varepsilon`$ can then require a shrinking step. Here the analysis keeps the exact eigenphases of the controlled finite-step evolution. Symmetry makes their relevant contrast vanish exactly at the null hypothesis; a derivative bound controls its change proportionally to the signal.
 
-This is why the same interval $`\tau=0.01/\Lambda`$ works for every $`0<\varepsilon\le\Lambda`$. The number of intervals still diverges as $`\Lambda/\varepsilon`$. Neither the coherence duration nor the required accuracy of arbitrary implementation errors remains constant as the signal shrinks.
+This is why the same interval $`\tau=0.01/\Lambda`$ works for every $`0<\varepsilon\le\Lambda`$. The number of intervals still diverges as $`\Lambda/\varepsilon`$. The coherent run lasts longer as the signal shrinks, and the supplied sufficient worst-case implementation guarantee uses smaller per-call error allowances.
 
 The Hamiltonian theorem is not obtained by identifying $`H|0\rangle`$ with the first column of its exponential. Those columns contain different information. The separate interpolation proof is essential.
 

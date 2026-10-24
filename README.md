@@ -36,6 +36,12 @@ Start with the [access model and exact claims](science/model.md), then follow th
 
 [llms.txt](llms.txt) maps reader questions to these pages.
 
+## Learn the project
+
+The single educational anchor is **Andrew M. Childs's [Lecture Notes on Quantum Algorithms](https://www.cs.umd.edu/~amchilds/qa/qa.pdf), dated 17 April 2025**. The [learning overview](learning/README.md) connects the relevant sections to this project's scientific account.
+
+The [Childs-to-project bridge](learning/CHILDS_BRIDGE.md) develops a complete two-state example, explains why an unknown completion can spoil repetition, and builds the spectral and symmetry arguments that restore a reliable signal. The [30-milestone map](learning/MILESTONES.md) orders the understanding targets in two phases: 12 background/preliminaries milestones and 18 narrative/innovation milestones, each ending with an integrated view of the problem or contribution.
+
 ## Reproduce the finite checks
 
 From the repository root (tested with Python 3.12):
@@ -49,7 +55,7 @@ The checks cover exact two-state dynamics, valid dense completions, the distinct
 
 ## Resources and scope
 
-For an $`n`$-qubit computational encoding, each kick has an exact $`O(n)`$ known-gate implementation with $`O(n)`$ reusable clean workspace. There is no QRAM, unknown inverse, controlled unknown query or precision-dependent quantum rotation synthesis. The norm bound, exact column and known direction remain load-bearing promises. Arbitrary per-use errors must shrink with the length of the coherent run, as quantified in the resource account.
+For an $`n`$-qubit computational encoding, each kick has an exact $`O(n)`$ known-gate implementation with $`O(n)`$ reusable clean workspace. There is no QRAM, unknown inverse, controlled unknown query or precision-dependent quantum rotation synthesis. The norm bound, exact column and known direction remain load-bearing promises. The supplied worst-case error guarantee uses per-use error allowances that shrink with the run length, as quantified in the resource account.
 
 ## Purpose and contact
 

@@ -81,7 +81,7 @@ Let $`P_\pm`$ project onto $`(|0\rangle\pm|1\rangle)/\sqrt2`$. Compare the asymm
 | Asymmetric $`V`$ | Approximately $`-2.60\times10^{-8}`$ |
 | Symmetric $`C`$ | Numerically zero within floating-point precision |
 
-The [parity proof](spectral_mechanism.md#lemma-3-exact-null-cancellation) establishes exact zero for $`C`$, for every promised null completion. The computed zero alone would not do so. The asymmetric example shows an additive offset at this fixed step; sufficiently small signals can be smaller than that offset. This illustrates why a promise-specific cancellation is needed to avoid extrapolation. It is not a proof that no alternative processing of the asymmetric construction could solve the decision task.
+The [parity proof](spectral_mechanism.md#lemma-3-exact-null-cancellation) establishes exact zero for $`C`$, for every promised null completion. The computed zero alone would not do so. The asymmetric example shows an additive offset at this fixed step; sufficiently small signals can be smaller than that offset. The promise-specific cancellation removes this additive offset without extrapolation. It is not a proof that no alternative processing of the asymmetric construction could solve the decision task.
 
 ## Reading the numerical examples
 

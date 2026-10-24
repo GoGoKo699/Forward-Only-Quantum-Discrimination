@@ -46,6 +46,8 @@ Because the compiled controls are monomial matrices, checking all basis columns 
 
 Long powers are evaluated by binary matrix powering. The eigenphase approximation is evaluated separately, so it is not used to manufacture the circuit output against which it is checked. Input norms, columns, unitarity and accumulated numerical norm residuals are checked before interpreting probabilities. The suite uses tolerance $`2\times10^{-7}`$ for cross-platform numerical-record comparisons and separate tighter or claim-specific assertions for branch cancellation and native controls.
 
+Raw floating-point probabilities are not clipped. Tiny excursions above one can reflect accumulated roundoff and should be read together with the reported norm residuals.
+
 ## Evidence boundaries
 
 The finite examples do not establish worst-case behavior in arbitrary dimension, prove a lower bound, certify originality, or simulate a noisy physical device. The maximum null departure and minimum signal departure above summarize only the selected examples. The conservative universal bounds remain below 0.002 at the null and above 0.9 at the signal, proved in [Discrete](../science/discrete.md) and [Hamiltonian](../science/Hamiltonian.md).
