@@ -44,7 +44,7 @@ Define
 ```math
 Y_{01}=-i|0\rangle\langle1|+i|1\rangle\langle0|,\qquad
 C_Y=iY_{01}-Q,\qquad a=\arcsin\varepsilon,
-\qquad m=\operatorname{round}\!\left(\frac{\pi}{4a}\right).
+\qquad m=\mathrm{round}\!\left(\frac{\pi}{4a}\right).
 ```
 
 **Discrete theorem.** Preparing $`|0\rangle`$, applying $`(C_Y^\dagger U)^m(C_YU)^m`$ and testing for departure from $`|0\rangle`$ gives
@@ -79,7 +79,7 @@ The algorithm uses this one duration; it needs neither shorter unknown evolution
 ```math
 X_{01}=|0\rangle\langle1|+|1\rangle\langle0|,\qquad
 C_X=iX_{01}-Q,\qquad
-m=\operatorname{round}\!\left(\frac{\pi}{4\varepsilon\tau}\right).
+m=\mathrm{round}\!\left(\frac{\pi}{4\varepsilon\tau}\right).
 ```
 
 **Hamiltonian theorem.** The same paired sequence with $`C_X`$ has the same two probability bounds, with
