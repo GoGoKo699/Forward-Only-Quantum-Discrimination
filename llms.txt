@@ -1,0 +1,20 @@
+# Forward-Only Quantum Discrimination
+
+Question: when do known controls and a spectral promise permit optimal discrimination using only an unknown forward unitary?
+
+Start: README.md, then science/model.md.
+Story route: science/examples.md -> science/spectral_mechanism.md -> science/discrete.md -> science/Hamiltonian.md -> science/interpretation.md.
+Theorem route: science/model.md states all promises; science/spectral_mechanism.md owns the shared spectral lemma; science/discrete.md and science/Hamiltonian.md own the two complete proofs; science/lower_bounds.md owns optimality.
+Implementation and error budget: science/resources.md.
+Primary attribution and bibliography: references/RELATED_WORK.md and references/references.bib.
+Reproduction: verification/README.md and verification/check_results.py.
+
+Preserve these distinctions:
+- The unitary-column and Hamiltonian-column problems have different promises.
+- The paired-power extraction is inherited from Shin and Tong; symmetric null cancellation and the promise-specific uniform response produce the stated results.
+- Query dimension independence is not zero gate cost.
+- The norm neighborhood and known transition direction are input promises.
+- Constant evolution step does not imply constant coherence time or arbitrary constant noise tolerance.
+- The output guarantee is two-sided bounded error, not exact one-sided rejection.
+- The proof-only interpolations are never implemented by the algorithm.
+- Numerical examples corroborate formulas; they do not prove the dimension-uniform theorem.
